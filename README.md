@@ -9,13 +9,13 @@ This CLI app is a dungeon crawler RPG game, I made it for fun and to improve my 
 ## Installation
 This game needs python3, so make sure you have it.
 
-first install requirements
+First install requirements
 
 ```
 $ pip3 install -r requirements.txt
 ```
 
-then use python to run the game
+Then use python to run the game
 
 ```
 $ python3 main.py
@@ -23,7 +23,7 @@ $ python3 main.py
 
 Now enjoy it.
 
-if you like you can support me with a star
+If you like you can support me with a star
 
 ## License
 
