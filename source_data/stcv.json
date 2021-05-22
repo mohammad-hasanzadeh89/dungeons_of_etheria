@@ -1,0 +1,311 @@
+{
+    "player_desc": "\nYou are an expert mage how to like sneaking around dungeons and loot them.\nMerlin found you at an Orphanage in Listeriavally and taught combat skills and scrolls to you to be his legacy to the world.\nAfter ten years, he leaves you, but you can talk to him with your magic orb.\nWhen he was leaving, he said to you: 'do not bother me with nonsense,  contact me just when you want to learn new scrolls or combat skills.'\n",
+    "all_abilities": {
+        "fast attack": {
+            "ability_type": 0,
+            "dice_type": 10,
+            "dice_count": 1,
+            "base_power": 5,
+            "mana_cost": 0,
+            "price": 100
+        },
+        "flip attack": {
+            "ability_type": 0,
+            "dice_type": 10,
+            "dice_count": 1,
+            "base_power": 10,
+            "mana_cost": 0,
+            "price": 500
+        },
+        "heavy attack": {
+            "ability_type": 0,
+            "dice_type": 10,
+            "dice_count": 1,
+            "base_power": 20,
+            "mana_cost": 0,
+            "price": 1000
+        },
+        "slash": {
+            "ability_type": 0,
+            "dice_type": 10,
+            "dice_count": 1,
+            "base_power": 40,
+            "mana_cost": 0,
+            "price": 2000
+        },
+        "wild beast": {
+            "ability_type": 0,
+            "dice_type": 10,
+            "dice_count": 1,
+            "base_power": 60,
+            "mana_cost": 0,
+            "price": 5000
+        },
+        "whirlwind": {
+            "ability_type": 0,
+            "dice_type": 10,
+            "dice_count": 1,
+            "base_power": 80,
+            "mana_cost": 0,
+            "price": 10000
+        },
+        "zen": {
+            "ability_type": 1,
+            "dice_type": 4,
+            "dice_count": 1,
+            "base_power": 4,
+            "mana_cost": 0,
+            "price": 500
+        },
+        "intoxication": {
+            "ability_type": 1,
+            "dice_type": 4,
+            "dice_count": 1,
+            "base_power": 5,
+            "mana_cost": 0,
+            "price": 1000
+        },
+        "nature call": {
+            "ability_type": 1,
+            "dice_type": 4,
+            "dice_count": 1,
+            "base_power": 7,
+            "mana_cost": 0,
+            "price": 5000
+        },
+        "lockpicking": {
+            "ability_type": 2,
+            "dice_type": 4,
+            "dice_count": 1,
+            "base_power": 1,
+            "mana_cost": 0,
+            "price": 1
+        },
+        "frost": {
+            "ability_type": 0,
+            "dice_type": 10,
+            "dice_count": 2,
+            "base_power": 10,
+            "mana_cost": 10,
+            "price": 100
+        },
+        "flame": {
+            "ability_type": 0,
+            "dice_type": 10,
+            "dice_count": 2,
+            "base_power": 20,
+            "mana_cost": 15,
+            "price": 500
+        },
+        "blast": {
+            "ability_type": 0,
+            "dice_type": 10,
+            "dice_count": 2,
+            "base_power": 40,
+            "mana_cost": 20,
+            "price": 1000
+        },
+        "thunder": {
+            "ability_type": 0,
+            "dice_type": 10,
+            "dice_count": 2,
+            "base_power": 80,
+            "mana_cost": 100,
+            "price": 2000
+        },
+        "phoenix": {
+            "ability_type": 0,
+            "dice_type": 10,
+            "dice_count": 2,
+            "base_power": 80,
+            "mana_cost": 25,
+            "price": 5000
+        },
+        "dark ritual": {
+            "ability_type": 1,
+            "dice_type": 4,
+            "dice_count": 2,
+            "base_power": 7,
+            "mana_cost": 5,
+            "price": 100
+        },
+        "healing light": {
+            "ability_type": 1,
+            "dice_type": 4,
+            "dice_count": 2,
+            "base_power": 10,
+            "mana_cost": 5,
+            "price": 500
+        },
+        "holy light": {
+            "ability_type": 1,
+            "dice_type": 4,
+            "dice_count": 2,
+            "base_power": 20,
+            "mana_cost": 5,
+            "price": 1000
+        },
+        "divine healing": {
+            "ability_type": 1,
+            "dice_type": 4,
+            "dice_count": 2,
+            "base_power": 100,
+            "mana_cost": 25,
+            "price": 5000
+        }
+    },
+    "char_desc": [
+        " is an angry person with a clumsy eye",
+        " is calm as a stone and deadly as venom",
+        " has a short temper and has a red face all the time",
+        " is ugly and fools as a troll",
+        " is a deceiver and deadly as serpent"
+    ],
+    "room_desc": [
+        "this room light come from two torch that flickering",
+        "this room has no light but you can barely see",
+        "this room light come from windows"
+    ],
+    "loots_elements": [
+        "Copper",
+        "Bronze",
+        "Silver",
+        "Gold",
+        "Ether"
+    ],
+    "loots_types": [
+        "Coin",
+        "Ore",
+        "Ingot",
+        "Plate",
+        "Cup",
+        "Goblet",
+        "Trinket",
+        "Ring",
+        "Bracelet",
+        "Armlet",
+        "Wristlet",
+        "Necklace",
+        "Tiara",
+        "Crown"
+    ],
+    "items_elements": [
+        "",
+        "Wooden",
+        "Iron",
+        "Silver",
+        "Golden",
+        "Wind",
+        "Earth",
+        "Ice",
+        "Fire",
+        "Frost",
+        "Flame",
+        "Lightning",
+        "Dark",
+        "Light"
+    ],
+    "armors_type": [
+        "Hat",
+        "Robe",
+        "Helmet",
+        "Chain mail",
+        "Shield",
+        "Armor",
+        "Cloak"
+    ],
+    "weapons_type": [
+        "Knife",
+        "Dagger",
+        "Sword",
+        "Club",
+        "Axe",
+        "Hammer",
+        "Long Sword",
+        "Mace",
+        "Wand",
+        "Stuff"
+    ],
+    "potion_size": [
+        "Tiny",
+        "Greate",
+        "Heavy",
+        "Super"
+    ],
+    "lvl": [
+        "",
+        "Petit",
+        "Common",
+        "Lieutenant",
+        "Cheif"
+    ],
+    "outlaws": [
+        "Thug",
+        "Bandit",
+        "Thief",
+        "Outlaws",
+        "Necromancer",
+        "Sorcerer",
+        "Assassin"
+    ],
+    "boss_titles": [
+        "Boss",
+        "king",
+        "Master"
+    ],
+    "races": [
+        "Elf",
+        "Orc",
+        "Dwarf",
+        "Human",
+        "Goblin",
+        "Demon",
+        "Spirit",
+        "Undead"
+    ],
+    "female_names": [
+        "Eve",
+        "Sylvana",
+        "Sethi",
+        "Sara",
+        "Lucy",
+        "Nina",
+        "Anna",
+        "Helga",
+        "Helena",
+        "Morgana",
+        "Rose",
+        "Valkyrie"
+    ],
+    "male_names": [
+        "Adam",
+        "Loki",
+        "Thor",
+        "Odin",
+        "Fenrir",
+        "Ghoul",
+        "Solomon",
+        "Cain",
+        "Lucifer",
+        "Lazarus",
+        "Judas",
+        "John",
+        "Mike",
+        "Bob",
+        "Bernard",
+        "Gormak",
+        "Zerof",
+        "Mardok",
+        "Mark"
+    ],
+    "base_power_ratios": {
+        "armor": {
+            "common": 1,
+            "epic": 3
+        },
+        "weapon": {
+            "common": 1,
+            "epic": 3
+        }
+    }
+}
