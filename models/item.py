@@ -107,10 +107,11 @@ class Potion(Item):
         if self.potion_type == "Health":
             potion_type = "hp"
             color = "#008000"
-            user.health = user.health + \
-                self.base_power if user.health < user.max_health else user.max_health
+            user.health = user.health + self.base_power if user.health + \
+                self.base_power < user.max_health else user.max_health
         elif self.potion_type == "Mana":
-            user.mana = user.mana + self.base_power if user.mana < user.max_mana else user.max_mana
+            user.mana = user.mana + self.base_power if user.mana + \
+                self.base_power < user.max_mana else user.max_mana
             potion_type = "mp"
             color = "#0000ff"
         if len(result) == 0:
@@ -120,8 +121,8 @@ class Potion(Item):
                 "Log": [(color, f"{user.name} restored {self.base_power} {potion_type}\n")]
             }
         else:
-            result["Removed Potion"]= self
-            result["Potion User"]= user.name
+            result["Removed Potion"] = self
+            result["Potion User"] = user.name
             result["Log"].append(
                 (color, f"{user.name} restored {self.base_power} {potion_type}\n"))
 
