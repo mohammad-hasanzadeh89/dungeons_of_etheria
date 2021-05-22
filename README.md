@@ -21,7 +21,7 @@ then use python to run the game
 $ python3 main.py
 ```
 
-know enjoy it.
+Now enjoy it.
 
 if you like you can support me with a star
 
